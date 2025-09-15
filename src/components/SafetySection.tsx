@@ -148,7 +148,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
 
           {/* Footer Note */}
           <div className="text-center text-red-600 font-semibold p-4 bg-red-50 rounded-lg border border-red-100 shadow-sm">
-            "Our dedicated team is ready to respond to any emergency situation"
+            "Our dedicated team is ready to responds any emergency situation"
           </div>
         </div>
       </div>
