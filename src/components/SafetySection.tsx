@@ -104,7 +104,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
                 <tbody className="bg-white divide-y divide-gray-200">
                   <tr className="hover:bg-blue-50 transition-colors duration-200">
                     <td className="py-4 px-6 whitespace-nowrap font-bold text-blue-700">
-                      1st priority
+                      Priority 01
                     </td>
                     <td className="py-4 px-6 whitespace-nowrap font-medium">
                       Control Room
@@ -117,7 +117,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
                   </tr>
                   <tr className="hover:bg-blue-50 transition-colors duration-200">
                     <td className="py-4 px-6 whitespace-nowrap font-bold text-blue-700">
-                      2nd priority
+                      Priority 02
                     </td>
                     <td className="py-4 px-6 whitespace-nowrap font-medium">
                       Mr. Shakthi Dissanayake
@@ -130,7 +130,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
                   </tr>
                   <tr className="hover:bg-blue-50 transition-colors duration-200">
                     <td className="py-4 px-6 whitespace-nowrap font-bold text-blue-700 rounded-bl-lg">
-                      3rd priority
+                      Priority 03
                     </td>
                     <td className="py-4 px-6 whitespace-nowrap font-medium">
                       Mr. Amal Fernando
