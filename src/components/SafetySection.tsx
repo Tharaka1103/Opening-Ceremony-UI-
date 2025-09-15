@@ -51,7 +51,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
               <li className="flex items-start">
                 <span className="text-blue-700 mr-2">▶</span>
                 <span>
-                  Do not re-enter the building or Morque area until clearance is
+                  Do not re-enter the building or Marquee area until clearance is
                   given by authorized personnel
                 </span>
               </li>
