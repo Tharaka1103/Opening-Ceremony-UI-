@@ -12,9 +12,9 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
             YOUR SAFETY IS OUR PRIORITY
           </h2>
-          <h3 className="text-xl md:text-4xl font-bold mb-4">
-            Emergency Evacuation Guide for Visitors
-          </h3>
+          <h3 className="text-xl md:text-xl font-bold mb-4 text-center">
+    Emergency Evacuation Guide for Visitors
+  </h3>
           <p className="text-xl text-red-600 font-semibold">
             "Once the emergency alarm is raised for any emergency situation"
           </p>
