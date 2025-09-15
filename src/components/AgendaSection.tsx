@@ -65,19 +65,7 @@ const AgendaSection = () => {
 
           {/* Continue all other agenda items as in your original code */}
           {/* ... */}
-          <div className="py-4">
-            <div className="grid grid-cols-12 gap-4 py-2">
-              <div className="col-span-3 md:col-span-2 font-bold text-blue-800">
-                05:45 PM
-              </div>
-              <div className="col-span-4 md:col-span-3 text-blue-600 italic">
-                onwards
-              </div>
-              <div className="col-span-5 md:col-span-7">Tea and Refreshments</div>
-            </div>
-          </div>
-        </div>
-      </div>
+       
 
       {/* Popup Form */}
       {isOpen && (
