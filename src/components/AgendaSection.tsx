@@ -48,6 +48,18 @@ const AgendaSection = () => {
             Add to Agenda (RSTP)
           </button>
         </div>
+{/* Add to Agenda Button */}
+<div className="text-center mb-6">
+  <button
+    onClick={() =>
+      window.location.href =
+        "https://forms.office.com/Pages/ResponsePage.aspx?id=Z7_1wZeIYk6LB5Rfdyki7VhDx2tG2BJMhGBCcyupMp1UQ1ZZTEtWNDZKRDFYNktGRFFTNUIxSDRTQi4u"
+    }
+    className="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
+  >
+    Add to Agenda (RSTP)
+  </button>
+</div>
 
         {/* Agenda Items */}
         <div className="max-w-4xl mx-auto">
