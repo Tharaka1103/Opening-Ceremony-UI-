@@ -110,7 +110,7 @@ const SafetySection = ({ onViewMap }: SafetySectionProps) => {
                       Control Room
                     </td>
                     <td className="py-4 px-6 whitespace-nowrap text-blue-700 font-medium">
-                      <a href="tel:0117780307" className="hover:underline">
+                      <a href="tel:0117780306" className="hover:underline">
                         011-7780306
                       </a>
                     </td>
