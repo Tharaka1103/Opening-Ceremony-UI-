@@ -64,81 +64,101 @@ const AgendaSection = () => {
           </div>
 
           {/* Agenda Items for Version 2 */}
-          {[
-            { start: "03:30 PM", end: "", detail: "Arrival of guests and seating." },
-            {
-              start: "04:00 PM",
-              end: "04:05 PM",
-              detail: "Arrival and reception of the Chief Guest and unveiling the plaque."
-            },
-            {
-              start: "04:05 PM",
-              end: "04:15 PM",
-              detail: `Photograph of Lakdhanavi Project team with the Chief Guest and Minister of Energy.
+         {[
+  { start: "03:30 PM", end: "", detail: "Arrival of guests and seating." },
+  {
+    start: "04:00 PM",
+    end: "04:05 PM",
+    detail: "Arrival and reception of the Chief Guest and unveiling the plaque."
+  },
+  {
+    start: "04:05 PM",
+    end: "04:15 PM",
+    detail: `Photograph of Lakdhanavi Project team with the Chief Guest and Minister of Energy.
 Chief Guest and Minister of Energy and Dignitaries arriving at the Control Room.`
-            },
-            {
-              start: "04:15 PM",
-              end: "04:25 PM",
-              detail: "Hon. Minister of Energy Synchronizing the Power Plant to the National Grid at the Presence of Hon. Prime Minister."
-            },
-            {
-              start: "04:25 PM",
-              end: "04:30 PM",
-              detail: 'Hon. Prime Minister and the Minister of Energy signing of the "Visitor Book".'
-            },
-            {
-              start: "04:30 PM",
-              end: "04:35 PM",
-              detail: "Dignitaries arriving at the ceremonial meeting venue."
-            },
-            {
-              start: "04:35 PM",
-              end: "04:40 PM",
-              detail: "Company Video Presentation"
-            },
-            {
-              start: "04:40 PM",
-              end: "04:45 PM",
-              detail: "Welcome Speech by Chief Executive Officer of LTL Holdings Limited, Eng. Nuhuman Marikkar"
-            },
-            {
-              start: "04:45 PM",
-              end: "04:55 PM",
-              detail: "Speech by the Chief Guest, Hon. Dr. Harini Amarasuriya"
-            },
-            {
-              start: "04:55 PM",
-              end: "05:05 PM",
-              detail: "Technical presentation on Sobadhanavi Power Plant Project"
-            },
-            {
-              start: "05:05 PM",
-              end: "05:20 PM",
-              detail: "Speech by Hon. Minister of Energy, Eng. Kumara Jayakody"
-            },
-            {
-              start: "05:20 PM",
-              end: "05:35 PM",
-              detail: "Tea and Refreshments"
-            },
-            {
-              start: "05:35 PM",
-              end: "onwards",
-              detail: "Hon. Minister of Energy inspecting the Power Plant"
-            }
-          ].map((item, idx) => (
-            <div key={idx} className="border-b border-gray-300 py-4">
-              <div className="grid grid-cols-12 gap-4 py-2">
-                <div className="col-span-3 md:col-span-2 font-bold text-blue-800">{item.start}</div>
-                {item.end && <div className="col-span-1 text-center">-</div>}
-                {item.end && (
-                  <div className="col-span-3 md:col-span-2 font-bold text-blue-800">{item.end}</div>
-                )}
-                <div className="col-span-5 md:col-span-7 text-blue-700">{item.detail}</div>
-              </div>
-            </div>
-          ))}
+  },
+  {
+    start: "04:15 PM",
+    end: "04:25 PM",
+    detail: (
+      <strong>
+        Hon. Minister of Energy Synchronizing the Power Plant to the National
+        Grid at the Presence Hon. Prime Minister
+      </strong>
+    )
+  },
+  {
+    start: "04:25 PM",
+    end: "04:30 PM",
+    detail:
+      'Hon. Prime Minister and the Minister of Energy signing of the "Visitor Book".'
+  },
+  {
+    start: "04:30 PM",
+    end: "04:35 PM",
+    detail: "Dignitaries arriving at the ceremonial meeting venue."
+  },
+  {
+    start: "04:35 PM",
+    end: "04:40 PM",
+    detail: "Company Video Presentation"
+  },
+  {
+    start: "04:40 PM",
+    end: "04:45 PM",
+    detail:
+      "Welcome Speech by Chief Executive Officer of LTL Holdings Limited, Eng. Nuhuman Marikkar"
+  },
+  {
+    start: "04:45 PM",
+    end: "04:55 PM",
+    detail: (
+      <strong>
+        Speech by the Chief Guest, Hon. Dr. Harini Amarasuriya
+      </strong>
+    )
+  },
+  {
+    start: "04:55 PM",
+    end: "05:05 PM",
+    detail: "Technical presentation on Sobadhanavi Power Plant Project"
+  },
+  {
+    start: "05:05 PM",
+    end: "05:20 PM",
+    detail: (
+      <strong>
+        Speech by Hon. Minister of Energy, Eng. Kumara Jayakody
+      </strong>
+    )
+  },
+  {
+    start: "05:20 PM",
+    end: "05:35 PM",
+    detail: "Tea and Refreshments"
+  },
+  {
+    start: "05:35 PM",
+    end: "onwards",
+    detail: "Hon. Minister of Energy inspecting the Power Plant"
+  }
+].map((item, idx) => (
+  <div key={idx} className="border-b border-gray-300 py-4">
+    <div className="grid grid-cols-12 gap-4 py-2">
+      <div className="col-span-3 md:col-span-2 font-bold text-blue-800">
+        {item.start}
+      </div>
+      {item.end && <div className="col-span-1 text-center">-</div>}
+      {item.end && (
+        <div className="col-span-3 md:col-span-2 font-bold text-blue-800">
+          {item.end}
+        </div>
+      )}
+      <div className="col-span-5 md:col-span-7 text-blue-700">{item.detail}</div>
+    </div>
+  </div>
+))}
+
         </div>
 
         {/* Popup Form */}
